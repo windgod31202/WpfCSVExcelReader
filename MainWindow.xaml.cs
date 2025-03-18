@@ -208,7 +208,7 @@ public partial class MainWindow : Window
 	}
 
 
-	// 篩選資料
+	// 篩選資料 
 	private void FilterButton_Click(object sender, RoutedEventArgs e)
 	{
 		// 取得篩選條件
