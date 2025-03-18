@@ -228,7 +228,7 @@ public partial class MainWindow : Window
 				var currentWorksheetData = worksheetData[selectedWorksheetName];
 
 				// 在這裡進行篩選
-				var filteredData = currentWorksheetData.Where(d =>
+				var filteredData = currentWorksheetData.Where(d => 
 					(string.IsNullOrEmpty(timeStampFilter) || d.TimeStamp.Contains(timeStampFilter, StringComparison.OrdinalIgnoreCase)) &&
 					(string.IsNullOrEmpty(nameFilter) || d.Name.Contains(nameFilter, StringComparison.OrdinalIgnoreCase)) &&
 					(string.IsNullOrEmpty(typeFilter) || d.Type.Contains(typeFilter, StringComparison.OrdinalIgnoreCase)) &&
