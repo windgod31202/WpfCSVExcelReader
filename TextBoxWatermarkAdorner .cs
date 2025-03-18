@@ -8,7 +8,7 @@ using System.Windows.Documents;
 using System.Windows.Media;
 using System.Windows;
 
-namespace WpfCSVExcelReader
+namespace WpfCSVExcelReader 
 {
 	public class TextBoxWatermarkAdorner : Adorner
 	{
